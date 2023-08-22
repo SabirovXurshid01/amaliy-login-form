@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    height: 100vh;
+    background-color: rgb(30, 26, 224);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 500px;
+    height: 60vh;
+    border-radius: 10px;
+    background-color: #fafafa;
+    border: 1px solid rgb(155, 154, 154);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card .text{
+    width: 130px;
+    height: 65px;
+}
+
+.card h2, p {
+    margin-top: 20px;
+}
+
+.card .text img {
+    width: 100%;
+    height: 100%;
+}
+
+form {
+    width: 80%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom:60px;
+}
+
+form fieldset {
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 0.5px solid rgb(155, 154, 154);
+}
+
+form fieldset input {
+    border: none;
+    outline: none;
+} 
+
+button {
+    width: 120px;
+    padding: 10px 0;
+    margin-left: 280px;
+    background-color: rgb(19, 150, 54);
+    color: #1822d9;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
